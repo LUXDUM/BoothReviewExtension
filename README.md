@@ -23,3 +23,7 @@ npm test         # vitest + コンテンツスクリプト再現ハーネス
 `chrome://extensions` → デベロッパーモード → 「パッケージ化されていない拡張機能を読み込む」→ `.output/chrome-mv3/` を選択。
 
 API で `https://reviews.luxdum.win` (Cloudflare Tunnel + 自前サーバー) を使用しています。サーバー側の実装は [BoothReview](https://github.com/LUXDUM/BoothReview) を参照してください。
+
+## ライセンス
+
+[MIT](./LICENSE)。BOOTH は株式会社 technologies のサービスであり、本拡張は非公式のサードパーティーツールです。
