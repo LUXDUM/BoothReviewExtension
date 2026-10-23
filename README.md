@@ -20,6 +20,6 @@ npm test         # vitest + コンテンツスクリプト再現ハーネス
 
 ## インストール (自分でビルドする場合)
 
-`chrome://extensions` → デベロッパーモード → 「パッケージ化されていない拡張機能を読み込む」→ `extension/.output/chrome-mv3/` を選択。
+`chrome://extensions` → デベロッパーモード → 「パッケージ化されていない拡張機能を読み込む」→ `.output/chrome-mv3/` を選択。
 
 API で `https://reviews.luxdum.win` (Cloudflare Tunnel + 自前サーバー) を使用しています。サーバー側の実装は [BoothReview](https://github.com/LUXDUM/BoothReview) を参照してください。
